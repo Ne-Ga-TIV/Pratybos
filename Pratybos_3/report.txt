@@ -1,0 +1,172 @@
+QUERY 1
+100 records loaded succesfully
+NAME           SURNAME      COURSE   AVG.   CRS.COUTN
+Victor         Wood           2      0.0         0
+LANGUAGES: English
+
+
+
+Filter applied, 1 students found
+
+QUERY 2
+100 records loaded succesfully
+NAME           SURNAME      COURSE   AVG.   CRS.COUTN
+Helen          de Vito        4      6.8         4
+Computer programming    6
+Operating systems       8
+Physics                 6
+Set theory              7
+LANGUAGES: English Lithuanian
+
+
+
+NAME           SURNAME      COURSE   AVG.   CRS.COUTN
+Jane           Gibson         4      7.5         2
+Calculus                6
+Algorithms              9
+LANGUAGES: English Russian Spanish
+
+
+
+NAME           SURNAME      COURSE   AVG.   CRS.COUTN
+Charlie        Smith          1      8.2         4
+Algebra                 8
+Discrete mathematics    8
+Set theory              9
+Calculus                8
+LANGUAGES: English French Lithuanian
+
+
+Filter applied, 92 students found
+
+QUERY 3
+100 records loaded succesfully
+NAME           SURNAME      COURSE   AVG.   CRS.COUTN
+Helen          de Vito        4      6.8         4
+Computer programming    6
+Operating systems       8
+Physics                 6
+Set theory              7
+LANGUAGES: English Lithuanian
+
+
+
+NAME           SURNAME      COURSE   AVG.   CRS.COUTN
+Melissa        Sleight        2      3.6         5
+Discrete mathematics    1
+Computer programming    1
+Computer networks       8
+Set theory              1
+Calculus                7
+LANGUAGES: English
+
+
+
+NAME           SURNAME      COURSE   AVG.   CRS.COUTN
+Victor         Wood           2      0.0         0
+LANGUAGES: English
+
+
+
+Filter applied, 92 students found
+
+QUERY 4
+100 records loaded succesfully
+NAME           SURNAME      COURSE   AVG.   CRS.COUTN
+Melissa        Sleight        2      3.6         5
+Discrete mathematics    1
+Computer programming    1
+Computer networks       8
+Set theory              1
+Calculus                7
+LANGUAGES: English
+
+
+
+NAME           SURNAME      COURSE   AVG.   CRS.COUTN
+Jerry          Hudson         3      7.0         5
+Algebra                 6
+Computer networks       5
+Calculus                9
+Calculus                6
+Set theory              9
+LANGUAGES: English
+
+
+
+NAME           SURNAME      COURSE   AVG.   CRS.COUTN
+Jim            Brightman      3      5.0         4
+Physics                 4
+Computer programming    9
+Set theory              1
+Computer networks       6
+LANGUAGES: English Spanish FrencFilter applied, 46 students foundh
+
+
+
+Filter applied, 46 students found
+
+QUERY 5
+100 records loaded succesfully
+NAME           SURNAME      COURSE   AVG.   CRS.COUTN
+Charlie        Smith          1      8.2         4
+Algebra                 8
+Discrete mathematics    8
+Set theory              9
+Calculus                8
+LANGUAGES: English French Lithuanian
+
+
+
+NAME           SURNAME      COURSE   AVG.   CRS.COUTN
+Sole           Doe            1      5.2         4
+Physics                 8
+Physics                 8
+Physics                 3
+Calculus                2
+LANGUAGES: English Russian
+
+
+
+NAME           SURNAME      COURSE   AVG.   CRS.COUTN
+Angelina       Note           2      5.0         3
+Calculus                9
+Algebra                 7
+Algorithms              2
+LANGUAGES: English Russian Lithuanian
+
+
+
+Filter applied, 28 students found
+
+QUERY 18
+100 records loaded succesfully
+NAME           SURNAME      COURSE   AVG.   CRS.COUTN
+Kim            Quarry         1      5.7         3
+Computer networks       8
+Computer programming    7
+Algebra                 2
+LANGUAGES: English Spanish
+
+
+
+NAME           SURNAME      COURSE   AVG.   CRS.COUTN
+Kylie          Damon          3      5.7         3
+Algebra                 1
+Operating systems       5
+Algorithms              8
+LANGUAGES: English Spanish Lithuanian
+
+
+
+NAME           SURNAME      COURSE   AVG.   CRS.COUTN
+Robert         Stapleton      2      4.5         4
+Algebra                 5
+Discrete mathematics    9
+Philosophy              3
+Operating systems       1
+LANGUAGES: English Spanish French
+
+
+
+Filter applied, 6 students found
