@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <math.h>
 
 void swap(int *a, int *b)
 {
@@ -63,13 +64,13 @@ void selectSort(int *arr, int size)
 void quickSort(int *first, int *last)
 {
     int *f = first, *l = last;
-    int *pivot = first + (last-first)/2;
+    int pivot = *(first + (last-first)/2);
     do{
         
-        while(*f < *pivot)
+        while(*f < pivot)
             f++;
         
-        while(*l > *pivot)
+        while(*l > pivot)
             l--;
 
         if(f <= l){
@@ -79,11 +80,11 @@ void quickSort(int *first, int *last)
         }
     }while(f <= l);
 
-    if(l > first)
-        quickSort(first, ++l);
-   
     if(f < last)
-        quickSort(--f, last);
+        quickSort(f, last);
+    if(l > first)
+        quickSort(first, l);
+    
 }
 
 void mergeSort(int *low, int *high)
@@ -125,9 +126,47 @@ void mergeSort(int *low, int *high)
     }
 
 }
+
 int main()
 {
     srand(time(NULL));
 
+    time_t start, end;
+    int arr[1000], arr_2[10000], arr_3[100000];
+
+    const char *funNames[] = {"BubleSort:", "SelectSotr:",
+                            "InsertSotr", "QuickSort", "MargeSotr"};
+    int *arrPtr[] = {arr, arr_2, arr_3};
+    
+    void (*fun[])(int*, int) = {bubleSort, selectSort, insertSort};
+    void (*fun2[])(int*, int*) = {quickSort, mergeSort};
+
+    printf("Sotr:          n = 1000      n = 100000     n = 100000\n");
+    // Default Sort
+    for(int i = 0; i < 3; i++){
+        printf("%-15s", funNames[i]);
+        for(int j = 0; j < 3; j++){
+            int size = 10*pow(10, j+2);
+            fillArray(arrPtr[j], size);
+            time(&start);
+            fun[i](arrPtr[j], size);
+            time(&end);
+            printf("%-14f", difftime(end, start));
+        }
+        printf("\n");
+    }
+    // Quick Sort
+    for(int i = 3; i < 5; i++){
+        printf("%-15s", funNames[i]);
+        for(int j = 0; j < 3; j++){
+            int size = 10*pow(10, j+2);
+            fillArray(arrPtr[j], size);
+            time(&start);
+            fun2[i-3](arrPtr[j], arrPtr[j]+size-1);
+            time(&end);
+            printf("%-14f", difftime(end, start));
+        }
+        printf("\n");
+    }
     return 0;
 }
